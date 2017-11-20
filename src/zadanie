@@ -1,0 +1,4 @@
+"Musisz zrobić 1 klasę płyta, 3 klasy płyt CD(CD,CDR,CDRW),
+3 klasy płyt DVD i 1 klasę płyty, która nie jest żadnego rodzaju(np.bluray),
+po czym stworzyć klasę "Player", która będzie wypisywała metodą jaki rodzaj płyty jest wybrany"
+
