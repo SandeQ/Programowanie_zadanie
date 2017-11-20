@@ -1,12 +1,16 @@
+import com.sun.org.apache.bcel.internal.generic.DUP;
+
 public class Main {
 
     public static void main(String[] args) {
-        DVDRW Disc = new DVDRW();
-        BLURAY Discc = new BLURAY();
-        DVDR Disccc = new DVDR();
+        CD Dysk = new CD();
+        BLURAY Dysk2 = new BLURAY();
+        DVDR Dysk3 = new DVDR();
+        DUPA DupiatyDysk = new DUPA();
         PLAYER player = new PLAYER();
-        System.out.println(player.checkDiscType(Disc.sRodzaj));
-        System.out.println(player.checkDiscType(Discc.sRodzaj));
-        System.out.println(player.checkDiscType(Disccc.sRodzaj));
+        System.out.println(player.checkDiscType(Dysk));
+        System.out.println(player.checkDiscType(Dysk2));
+        System.out.println(player.checkDiscType(Dysk3));
+        System.out.println(player.checkDiscType(DupiatyDysk));
     }
 }
